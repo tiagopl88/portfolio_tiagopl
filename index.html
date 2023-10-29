@@ -1,110 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./styles.css" />
     <link rel="icon" href="favicon.ico" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <title>Portfolio Tiago PL</title>
   </head>
   <body>
-    <header>
-      <h1>Hello, my name is Tiago Pinto Leite Im a Full Stack Web Developer</h1>
-      <a href="#contact">Find out more</a>
+    <header class="header">
+      <h1>
+        Hello, my name is Tiago Pinto Leite. I’m a Full Stack Web Developer
+      </h1>
+      <a href="#contacts">Find Out More</a>
     </header>
     <main>
       <section id="about" class="about">
-        <h1 class="heading">About Me</h1>
-    
-          <img src="./img/image2.png" alt="" width="400px" />
+        <h2 class="heading">About Me</h2>
+        <div>
+          <img src="./img/image2.png" alt="" width="400" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            fugit itaque molestias aperiam nobis aspernatur adipisci pariatur
-            placeat veritatis nihil porro quis aliquid, hic eos dolor quo
-            repellendus! Temporibus, cumque!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            possimus itaque facilis voluptates beatae quaerat at, laboriosam
+            quidem ea sit, ipsa officiis delectus doloribus consequuntur quis,
+            quibusdam fugit earum libero.
           </p>
           <a href="">View resume</a>
         </div>
-        <blockquote>"Dont comment bad code - rewrite it"</blockquote>
+        <blockquote>“Don't comment bad code - rewrite it.”</blockquote>
 
-        <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-Botão
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Titulo</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-       bfbdbdbfdsbfdsfdsfdsjfjdsfjdksfjsdkfdsjfsjdkbfsdjbf
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-        <cite>Brian Kerrighton</cite>
+        <cite>Brian Kernighan</cite>
       </section>
+
       <section id="projects" class="projects">
         <h2>Projects</h2>
-        <article>
-          <h2>Formulário</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
-            minima maiores voluptate fugiat voluptatibus nam unde vero nobis
-            eligendi. Architecto perferendis aut illo saepe, incidunt fugit
-            facilis cumque! Natus, consectetur?
-          </p>
-          <a href="https://github.com/tiagopl88/formulario_html2"
-            >Source code</a
-          >
-          <a href="https://tiagopl88.github.io/formulario_html2/"
-            >View Project</a
-          >
-          <img src="./img/formulario1.png" alt="" />
+        <article class="article">
+          <div class="project-article">
+            <h3>Formulário</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+              vitae tenetur distinctio exercitationem ducimus magni eius,
+              quibusdam accusantium, maiores error optio et velit amet
+              laboriosam ea repudiandae dolor fuga nisi.
+            </p>
+            <a
+              class="button button-primary"
+              href="https://github.com/tiagopl88/formulario_html2"
+              >Source Code</a
+            >
+            <a
+              class="button button-secondary"
+              href="https://tiagopl88.github.io/formulario_html2/"
+              >View Project</a
+            >
+          </div>
+          <img class="project-image" src="./img/formulario1.png" alt="" />
         </article>
-        <article>
-          <h3>Project 1</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
-            minima maiores voluptate fugiat voluptatibus nam unde vero nobis
-            eligendi. Architecto perferendis aut illo saepe, incidunt fugit
-            facilis cumque! Natus, consectetur?
-          </p>
-          <a class="btn btn-primary">Source code</a>
-          <a href="">View Project</a>
-          <img src="./img/formulario1.png" alt="" />
+        <article class="article">
+          <div class="project-article">
+            <h3>project 2</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+              vitae tenetur distinctio exercitationem ducimus magni eius,
+              quibusdam accusantium, maiores error optio et velit amet
+              laboriosam ea repudiandae dolor fuga nisi.
+            </p>
+            <a href="">source code</a>
+            <a href="">view project</a>
+          </div>
+          <img class="project-image" src="./img/image3.png" alt="" />
         </article>
-
-        <article>
-          <h3>Project 2</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
-            minima maiores voluptate fugiat voluptatibus nam unde vero nobis
-            eligendi. Architecto perferendis aut illo saepe, incidunt fugit
-            facilis cumque! Natus, consectetur?
-          </p>
-          <a href="">Source code</a>
-          <a href="">View Project</a>
-          <img src="./img/formulario1.png" alt="" />
+        <article class="article">
+          <div class="project-article">
+            <h3>project 3</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+              vitae tenetur distinctio exercitationem ducimus magni eius,
+              quibusdam accusantium, maiores error optio et velit amet
+              laboriosam ea repudiandae dolor fuga nisi.
+            </p>
+            <a href="">source code</a>
+            <a href="">view project</a>
+          </div>
+          <img class="project-image" src="./img/image3.png" alt="" />
         </article>
+        <a href="./projects.html">See More</a>
       </section>
-      <section id="contact">
-        <h3>Contact</h3>
+
+      <section id="contacts" class="contacts">
+        <h2>Contacts</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem aliquam delectus nisi dolorem, optio soluta qui
-          consequuntur maiores vel, voluptatum corrupti voluptatem eius nesciunt
-          numquam voluptatibus veniam, non fuga? Ipsum.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          dolor, expedita consequuntur nisi possimus veritatis eum molestiae
+          dolore aliquam, aspernatur incidunt ratione ut, a temporibus!
+          Exercitationem possimus in fuga iste.
         </p>
         <a href="mailto:tiagofnpintoleite@gmail.com">Lets Talk</a>
       </section>
@@ -127,8 +117,12 @@ Botão
           <a href="">Facebook</a>
         </li>
       </ul>
-      <p>@2023 Developed By Tiago PL</p>
+      <p>@2023 Developed By Tiago Pinto Leite</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
