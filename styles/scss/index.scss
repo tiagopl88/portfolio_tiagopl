@@ -1,19 +1,22 @@
-:root {
-  --color-primary: #fffffa;
-  --color-secondary: #ffbb00;
-  --color-font1: #051220;
-  --color-font2: #5d3d2e;
-  --font-family: Verdana light;
+@import "variables";
+@import "buttons";
+
+ {
+  $color-primary: #fffffa;
+  $color-secondary: #ffbb00;
+  $color-font1: #051220;
+  $color-font2: #5d3d2e;
+  $font-family: Verdana light;
 }
 
 * {
   box-sizing: border-box;
-  font-family: var(--font-family);
+  font-family: $font-family;
 }
 
 .header {
-  color: var(--color-titles1);
-  background-color: var(--color-primary);
+  color: $color-titles1;
+  background-color: $color-primary;
   text-align: center;
 }
 
@@ -22,8 +25,8 @@
   background-color: #007bff;
 }
 .projects {
-  color: var(--color-font1);
-  background-color: var(--color-primary);
+  color: $color-font1;
+  background-color: $color-primary;
 }
 .project-article p {
   margin-bottom: 30px;
@@ -44,15 +47,15 @@
 }
 .button-primary:hover {
   color: #007bff;
-  background-color: var(--color-font1);
+  background-color: $color-font1;
 }
 .button-secondary {
   background-color: #007bff;
   color: #ffbb00;
 }
 .button-secondary:hover {
-  background-color: var(--color-primary);
-  color: var(--color-font1);
+  background-color: $color-primary;
+  color: $color-font1;
 }
 @media (min-width: 1024px) {
   .article {
@@ -66,8 +69,8 @@
 }
 
 .contacts {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+  color: $color-primary;
+  background-color: $color-secondary;
 }
 .heading {
   position: relative;
